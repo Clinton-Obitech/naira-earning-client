@@ -39,13 +39,13 @@ export function AuthLayout() {
 
 export function DashboardLayout() {
 
-    const context = useContext(LoggedContext);
+    /*const context = useContext(LoggedContext);
 
     if (!context) return null;
 
     const { logged } = context;
 
-    if (!logged) return <Navigate to="/login/user" replace/>
+    if (!logged) return <Navigate to="/login/user" replace/>*/
 
     return (
         <div className="dash-layout">
