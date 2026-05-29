@@ -52,9 +52,9 @@ export default function UserDashboard() {
     return (
         <div className="user-dashboard">
             <div className="top">
-                <h1>{dashboard.username} dashboard</h1>
+                <h2>{dashboard.username} dashboard</h2>
                 <div>
-                    <h2>naira balance</h2>
+                    <h3>naira balance</h3>
                     <span>{dashboard.naira_balance}</span>
                 </div>
             </div>
