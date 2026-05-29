@@ -1,0 +1,8 @@
+.dash-layout {
+    background-image: url("../assets/Opalogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    padding-bottom: 7rem;
+}

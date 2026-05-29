@@ -1,0 +1,75 @@
+.auth {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.auth form {
+    box-shadow: 0px 0px 3px var(--shadowColor);
+    border-radius: 5px;
+    padding: 2rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    background-image: url("../../assets/Opalogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.auth form label {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    position: relative;
+}
+
+.auth form input {
+    width: 100%;
+}
+
+.auth form label > i {
+    font-size: 1.5rem;
+}
+
+.auth h1 {
+    padding: 0 1rem;
+}
+
+.auth form button {
+    padding: 1rem;
+    align-self: self-end;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth form a {
+    padding: 0.5rem 1rem;
+    align-self: flex-start;
+    color: teal;
+    margin-left: 1.7rem;
+}
+
+.auth > nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem;
+    text-transform: capitalize;
+}
+
+.auth nav a {
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+    color: teal;
+}

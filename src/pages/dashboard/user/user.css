@@ -1,0 +1,135 @@
+.user-dashboard {
+    padding: 1rem;
+}
+
+.user-dashboard .top {
+    background-color: var(--bgColor);
+    padding: 1rem;
+    box-shadow: 0px 0px 3px var(--shadowColor);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.user-dashboard .top > div {
+    background-color: teal;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.user-dashboard > div {
+    border-radius: 5px;
+}
+
+.user-dashboard .top span {
+    background-color: var(--bgColor);
+    padding: 0.4rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.user-dashboard .top > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-dashboard .top h2 {
+    white-space: nowrap;
+    text-transform: capitalize;
+    color: var(--divTextColor);
+}
+
+.user-dashboard .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.user-dashboard .center > button {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url("../../../assets/Translogo.png");
+    background-size: contain;
+    background-color: var(--bgColor);
+    background-position: center;
+}
+
+.user-dashboard .center > div:last-child button {
+    padding: 1rem 1.5rem;
+}
+
+.user-dashboard .center > div:last-child > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-dashboard .center > div:first-child {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    background-color: teal;
+    padding: 0.5rem;
+    width: 50%;
+    text-align: center;
+    color: var(--divTextColor);
+    border-radius: 5px;
+    gap: 0.3rem;
+}
+
+.user-dashboard .center > div:first-child span {
+    background-color: var(--bgColor);
+    padding: 0.3rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--bgTextColor);
+}
+
+.user-dashboard .center > div:last-child i {
+    font-size: 2rem;
+}
+
+.user-dashboard .center > div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.user-dashboard .bottom {
+    background-color: var(--bgColor);
+    position: fixed;
+    bottom: 1rem;
+    padding: 0.5rem;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 3px var(--shadowColor);
+}
+
+.user-dashboard .bottom a {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1.5px solid teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: teal;
+}
+
+.user-dashboard .bottom i {
+    font-size: 1.5rem;
+    color: var(--bgTextColor);
+}
